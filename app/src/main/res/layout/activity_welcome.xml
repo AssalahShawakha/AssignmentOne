@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#117C72"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Welcome" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Solve Matrices 2X2"
+        android:textColor="#EFE8E8"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#173734"
+        android:text="      Addition      " />
+
+    <Button
+        android:id="@+id/btSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#173734"
+        android:text="   Subtraction   " />
+
+    <Button
+        android:id="@+id/btMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#173734"
+        android:text=" Multiplication " />
+
+    <Button
+        android:id="@+id/btRools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#173734"
+        android:text="         Rools         " />
+</androidx.appcompat.widget.LinearLayoutCompat>
